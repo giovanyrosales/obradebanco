@@ -168,13 +168,13 @@ class ReporteHerramientaController extends Controller
         // mostrar errores
         $mpdf->showImageErrors = false;
 
-        $logoalcaldia = 'images/logo2.png';
+        $logoalcaldia = 'images/logo_dis.png';
 
         $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Salidas de Herramientas <br>
-            Departamento Eléctrico <br>
+            TALLER DE ESTRUCTURAS <br>
             Fecha: $desdeFormat  -  $hastaFormat </p>
             </div>";
 
@@ -280,11 +280,11 @@ class ReporteHerramientaController extends Controller
         // mostrar errores
         $mpdf->showImageErrors = false;
 
-        $logoalcaldia = 'images/logo2.png';
+        $logoalcaldia = 'images/logo_dis.png';
 
         $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Reingreso de Herramientas<br>
             Fecha: $desdeFormat  -  $hastaFormat </p>
             </div>";
@@ -351,13 +351,13 @@ class ReporteHerramientaController extends Controller
         // mostrar errores
         $mpdf->showImageErrors = false;
 
-        $logoalcaldia = 'images/logo2.png';
+        $logoalcaldia = 'images/logo_dis.png';
 
         $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Herramientas Descartadas<br>
-            Unidad Eléctrica
+            Taller de Estructuras
             </div>";
 
         $tabla .= "<table width='100%' id='tablaFor'>
@@ -451,13 +451,13 @@ class ReporteHerramientaController extends Controller
         // mostrar errores
         $mpdf->showImageErrors = false;
 
-        $logoalcaldia = 'images/logo2.png';
+        $logoalcaldia = 'images/logo_dis.png';
 
         $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Ingreso de Herramientas<br>
-            Departamento Eléctrico<br>
+            TALLER DE ESTRUCTURAS<br>
             Fecha: $desdeFormat  -  $hastaFormat </p>
             </div>";
 

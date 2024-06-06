@@ -17,7 +17,7 @@ input {
     font-family:Arial, sans-serif; font-size:14px;
 }
 
-@page *{
+@page {
           margin-top: 18.30cm;
           margin-bottom: 2.54cm;
           margin-left: 3.175cm;

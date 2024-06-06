@@ -92,11 +92,11 @@ class ReportesController extends Controller
             // mostrar errores
             $mpdf->showImageErrors = false;
 
-            $logoalcaldia = 'images/logo2.png';
+            $logoalcaldia = 'images/logo_dis.png';
 
             $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Reporte de Entradas<br>
             Fecha: $desdeFormat  -  $hastaFormat</p>
             </div>";
@@ -209,11 +209,11 @@ class ReportesController extends Controller
             // mostrar errores
             $mpdf->showImageErrors = false;
 
-            $logoalcaldia = 'images/logo2.png';
+            $logoalcaldia = 'images/logo_dis.png';
 
             $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Reporte de Salidas Repuestos<br>
             Fecha: $desdeFormat  -  $hastaFormat </p>
             </div>";
@@ -312,13 +312,13 @@ class ReportesController extends Controller
             // mostrar errores
             $mpdf->showImageErrors = false;
 
-            $logoalcaldia = 'images/logo2.png';
+            $logoalcaldia = 'images/logo_dis.png';
 
             $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Inventario de Repuestos<br>
-            Departamento Eléctrico
+            TALLER DE ESTRUCTURAS
             </div>";
 
 
@@ -423,13 +423,13 @@ class ReportesController extends Controller
             // mostrar errores
             $mpdf->showImageErrors = false;
 
-            $logoalcaldia = 'images/logo2.png';
+            $logoalcaldia = 'images/logo_dis.png';
 
             $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Inventario de Repuestos<br>
-            Departamento Eléctrico
+            TALLER DE ESTRUCTURAS
             </div>";
 
             foreach ($listaProy as $dd) {
@@ -583,11 +583,11 @@ class ReportesController extends Controller
             // mostrar errores
             $mpdf->showImageErrors = false;
 
-            $logoalcaldia = 'images/logo2.png';
+            $logoalcaldia = 'images/logo_dis.png';
 
             $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Reporte de Materiales Entregados <br>
             Fecha: $desdeFormat  -  $hastaFormat
             </div>";
@@ -674,11 +674,11 @@ class ReportesController extends Controller
             // mostrar errores
             $mpdf->showImageErrors = false;
 
-            $logoalcaldia = 'images/logo2.png';
+            $logoalcaldia = 'images/logo_dis.png';
 
             $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Reporte de Materiales Entregados <br>
             Fecha: $desdeFormat  -  $hastaFormat
             </div>";
@@ -794,13 +794,13 @@ class ReportesController extends Controller
         // mostrar errores
         $mpdf->showImageErrors = false;
 
-        $logoalcaldia = 'images/logo2.png';
+        $logoalcaldia = 'images/logo_dis.png';
 
         $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Inventario de Proyecto <br>
-            Departamento de Ingeniería Eléctrica <br>
+            Taller de Estructuras Metálicas <br>
             </div>";
 
         $tabla .= "<p style='font-weight: bold; font-size: 15px'> Fecha: $fechaFormat <p>";
@@ -889,12 +889,12 @@ class ReportesController extends Controller
         // mostrar errores
         $mpdf->showImageErrors = false;
 
-        $logoalcaldia = 'images/logo2.png';
+        $logoalcaldia = 'images/logo_dis.png';
 
         $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
-            Repuestos de Bodega Eléctrica <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
+            Repuestos de Taller de Estructuras <br>
             Reporte de Proyecto Completado<br>
             </div>";
 
@@ -1033,11 +1033,11 @@ class ReportesController extends Controller
         // mostrar errores
         $mpdf->showImageErrors = false;
 
-        $logoalcaldia = 'images/logo2.png';
+        $logoalcaldia = 'images/logo_dis.png';
 
         $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
-            <p id='titulo'>ALCALDÍA MUNICIPAL DE METAPÁN <br>
+            <p id='titulo'>DISTRITO DE METAPÁN <br>
             Reporte Salida de Materiales <br>
             Fecha: $desdeFormat  -  $hastaFormat
             </div>";
