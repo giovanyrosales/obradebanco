@@ -15,15 +15,15 @@ class UsuariosSeeder extends Seeder
     public function run()
     {
         Usuario::create([
-            'nombre' => 'Jonathan',
-            'usuario' => 'jonathan',
+            'nombre' => 'Giovany',
+            'usuario' => 'giovany',
             'password' => bcrypt('1234'),
             'activo' => 1,
         ])->assignRole('admin');
 
         Usuario::create([
-            'nombre' => 'Ramon',
-            'usuario' => 'ramon',
+            'nombre' => 'David',
+            'usuario' => 'david',
             'password' => bcrypt('1234'),
             'activo' => 1,
         ])->assignRole('inventario');
