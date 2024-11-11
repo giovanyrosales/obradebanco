@@ -68,7 +68,7 @@
                             <div class="form-group" style="float: right">
                                 <br>
                                 <button type="button" id="botonaddmaterial" onclick="abrirModal()" class="btn btn-primary btn-sm float-right" style="margin-top:10px; margin-right: 15px;">
-                                    <i class="fas fa-plus" title="Agregar Repuesto"></i> Agregar Repuesto</button>
+                                    <i class="fas fa-plus" title="Agregar Repuesto"></i> Agregar Material</button>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Buscar Repuesto</h4>
+                    <h4 class="modal-title">Buscar Material</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -95,7 +95,7 @@
                         <div class="card-body">
 
                             <div class="form-group">
-                                <label class="control-label">Repuesto</label>
+                                <label class="control-label">Material</label>
 
                                 <table class="table" id="matriz-busqueda" data-toggle="table">
                                     <tbody>
@@ -150,7 +150,7 @@
                     <thead>
                     <tr>
                         <th style="width: 3%">#</th>
-                        <th style="width: 10%">Repuesto</th>
+                        <th style="width: 10%">Material</th>
                         <th style="width: 6%">Inventario Disponible</th>
                         <th style="width: 6%">Salida</th>
                         <th style="width: 5%">Opciones</th>
@@ -187,7 +187,7 @@
 
 
                                     <div class="form-group">
-                                        <label>Repuesto:</label>
+                                        <label>Material:</label>
                                         <input type="text" disabled class="form-control" autocomplete="off" id="nombre-modal">
                                         <input type="hidden" id="id-modal">
                                     </div>

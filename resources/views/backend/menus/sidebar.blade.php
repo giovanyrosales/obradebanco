@@ -88,7 +88,7 @@
                     <a href="#" class="nav-link nav-">
                         <i class="far fa-edit"></i>
                         <p>
-                            Registro Repuestos
+                            Registro de Materiales
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -98,21 +98,21 @@
                         <li class="nav-item">
                             <a href="{{ route('admin.entrada.registro.index') }}" target="frameprincipal" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Registrar Entrada</p>
+                                <p>Registrar Entradas</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a href="{{ route('admin.salida.registro.index') }}" target="frameprincipal" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Registrar Salida</p>
+                                <p>Registrar Salidas</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a href="{{ route('admin.transferencias.index') }}" target="frameprincipal" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Cierre de Proyecto</p>
+                                <p>Cierre de Proyectos</p>
                             </a>
                         </li>
 
@@ -185,7 +185,7 @@
                         <li class="nav-item">
                             <a href="{{ route('admin.historial.salidas.repuestos') }}" target="frameprincipal" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Salida Repuestos</p>
+                                <p>Salida de Materiales</p>
                             </a>
                         </li>
 
@@ -193,7 +193,7 @@
                         <li class="nav-item">
                             <a href="{{ route('admin.historial.salidas.herramientas') }}" target="frameprincipal" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Salida Herramientas</p>
+                                <p>Salida de Herramientas</p>
                             </a>
                         </li>
 
@@ -221,14 +221,14 @@
                         <li class="nav-item">
                             <a href="{{ route('admin.registrar.quienrecibe.index') }}" target="frameprincipal" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Quien Recibe</p>
+                                <p>Quién Recibe</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a href="{{ route('admin.registrar.quienentrega.index') }}" target="frameprincipal" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Quien Entrega</p>
+                                <p>Quién Entrega</p>
                             </a>
                         </li>
 
@@ -236,16 +236,7 @@
                     </ul>
                 </li>
 
-
-
                 @endcan
-
-
-
-
-
-
-
 
                     @can('sidebar.reportes')
 

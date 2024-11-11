@@ -214,7 +214,7 @@ class ReportesController extends Controller
             $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
             <p id='titulo'>DISTRITO DE METAPÁN <br>
-            Reporte de Salidas Repuestos<br>
+            Reporte de Salidas Materiales<br>
             Fecha: $desdeFormat  -  $hastaFormat </p>
             </div>";
 
@@ -317,7 +317,7 @@ class ReportesController extends Controller
             $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
             <p id='titulo'>DISTRITO DE METAPÁN <br>
-            Inventario de Repuestos<br>
+            Inventario de Materiales<br>
             TALLER DE ESTRUCTURAS
             </div>";
 
@@ -418,7 +418,7 @@ class ReportesController extends Controller
 
             //$mpdf = new \Mpdf\Mpdf(['format' => 'LETTER']);
             $mpdf = new \Mpdf\Mpdf(['tempDir' => sys_get_temp_dir(), 'format' => 'LETTER']);
-            $mpdf->SetTitle('Inventario Repuestos');
+            $mpdf->SetTitle('Inventario Materiales');
 
             // mostrar errores
             $mpdf->showImageErrors = false;
@@ -428,7 +428,7 @@ class ReportesController extends Controller
             $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
             <p id='titulo'>DISTRITO DE METAPÁN <br>
-            Inventario de Repuestos<br>
+            Inventario de Materiales<br>
             TALLER DE ESTRUCTURAS
             </div>";
 
@@ -894,7 +894,7 @@ class ReportesController extends Controller
         $tabla = "<div class='content'>
             <img id='logo' src='$logoalcaldia'>
             <p id='titulo'>DISTRITO DE METAPÁN <br>
-            Repuestos de Taller de Estructuras <br>
+            Materiales de Taller de Estructuras <br>
             Reporte de Proyecto Completado<br>
             </div>";
 

@@ -56,7 +56,7 @@
                             <div class="form-group" style="float: right">
                                 <br>
                                 <button type="button" onclick="abrirModal()" class="btn btn-primary btn-sm float-right" style="margin-top:10px; margin-right: 15px;">
-                                    <i class="fas fa-plus" title="Agregar Repuesto"></i> Agregar Herramienta</button>
+                                    <i class="fas fa-plus" title="Agregar Herramienta"></i> Agregar Herramienta</button>
                             </div>
                         </div>
                     </div>

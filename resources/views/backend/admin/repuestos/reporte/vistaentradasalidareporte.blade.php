@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="callout callout-info">
-                        <h5 style="font-weight: bold"><i class="fas fa-info"></i> Generar Reporte de Entradas y Salidas de Repuestos</h5>
+                        <h5 style="font-weight: bold"><i class="fas fa-info"></i> Generar Reporte de Entradas y Salidas de Materiales</h5>
                         <div class="card">
                             <form class="form-horizontal">
                                 <div class="card-body">

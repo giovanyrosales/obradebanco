@@ -23,7 +23,7 @@
 
     <section class="content-header">
         <div class="row">
-            <h1 style="margin-left: 5px">Historial de Salidas de Repuestos</h1>
+            <h1 style="margin-left: 5px">Historial de Salidas de Materiales</h1>
         </div>
 
     </section>

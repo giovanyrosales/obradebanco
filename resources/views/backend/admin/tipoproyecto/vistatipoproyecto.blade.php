@@ -259,6 +259,51 @@
                 });
         }
 
+        function VerificarEliminar(id){
+            Swal.fire({
+                title: 'Eliminar Material?',
+                text: "",
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonColor: '#28a745',
+                cancelButtonColor: '#d33',
+                cancelButtonText: 'Cancelar',
+                confirmButtonText: 'Si'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    eliminar(id);
+                }
+            })
+        }
+
+        function eliminar(id){
+            openLoading();
+            var formData = new FormData();
+            formData.append('id', id);
+
+            axios.post(url+'/proyecto/eliminar', formData, {
+            })
+                .then((response) => {
+                    closeLoading();
+                    if(response.data.success === 1){
+                        toastr.success('Borrado correctamente');
+                        $('#modalAgregar').modal('hide');
+                        recargar();
+                    }
+                    else if(response.data.success === 2){
+                        toastr.error('Proyecto no se puede eliminar porque tiene registros de entradas o salidas');
+                        $('#modalAgregar').modal('hide');
+                        recargar();
+                    }
+                    else {
+                        toastr.error('Error al borrar');
+                    }
+                })
+                .catch((error) => {
+                    toastr.error('Error al borrar');
+                    closeLoading();
+                });
+        }
 
     </script>
 

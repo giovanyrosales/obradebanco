@@ -84,6 +84,7 @@ Route::get('/admin/proyecto/tabla/index', [TipoProyectoController::class,'tablaP
 Route::post('/admin/proyecto/nuevo', [TipoProyectoController::class, 'nuevoProyecto']);
 Route::post('/admin/proyecto/informacion', [TipoProyectoController::class, 'informacionProyecto']);
 Route::post('/admin/proyecto/editar', [TipoProyectoController::class, 'editarProyecto']);
+Route::post('/admin/proyecto/eliminar', [TipoProyectoController::class, 'borrarProyecto']);
 
 
 // registrar entrada para repuestos
