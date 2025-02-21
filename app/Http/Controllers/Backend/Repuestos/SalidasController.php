@@ -207,11 +207,16 @@ class SalidasController extends Controller
             // MATERIAL ENCONTRADO
 
             $infoMaterial = Materiales::where('id', $request->idmaterial)->first();
-            $infoMedida = UnidadMedida::where('id', $infoMaterial->id_medida)->first();
+
+            $nombremedida = "";
+            if($infoMedida = UnidadMedida::where('id', $infoMaterial->id_medida)->first())
+            {
+                $nombremedida = $infoMedida->nombre;
+            }
 
             return ['success' => 1,
                 'infomaterial' => $infoMaterial,
-                'medida' => $infoMedida->nombre,
+                'medida' => $nombremedida,
                 'cantidad' => $infoEntrada->cantidad];
         }else{
             return ['success' => 2,];
